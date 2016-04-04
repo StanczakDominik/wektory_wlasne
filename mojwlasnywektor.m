@@ -10,11 +10,9 @@ n = N(1,1)
 
 for i = 2:1:n
   while abs(temp(i,1)) >= dokladnosc
-    while abs(temp(i,1)) >= dokladnosc
-      temp = a*x
-      lambda = [lambda temp(1,1)]
-      x = temp/temp(1,1)
-    end
+     temp = a*x
+     lambda = [lambda temp(1,1)]
+     x = temp/temp(1,1)
   end
 end 
 
